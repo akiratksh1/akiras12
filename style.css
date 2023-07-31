@@ -1,0 +1,51 @@
+/* Estilos dos botões de redes sociais */
+.redes-sociais {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex; /* Criar uma linha com os botões */
+  justify-content: center; /* Centralizar horizontalmente os botões */
+}
+
+.botao-redondo {
+  display: flex; /* Use flexbox para centralizar o ícone vertical e horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  justify-content: center; /* Centralize horizontalmente */
+  width: 110px; /* Reduzindo o tamanho do botão para 50px */
+  height: 110px; /* Reduzindo o tamanho do botão para 50px */
+  border-radius: 50%;
+  margin: 10px; /* Reduzindo o espaço entre os botões */
+  overflow: hidden;
+  background-color: #e81700; /* Cor de fundo do botão */
+}
+
+.botao-redondo img {
+  width: 80%; /* Reduzindo o tamanho do ícone para 80% do botão */
+  height: 80%; /* Reduzindo o tamanho do ícone para 80% do botão */
+  object-fit: contain; /* Certifique-se de que o ícone não fique esticado */
+}
+
+/* Adicione estilos personalizados para os ícones das redes sociais, conforme necessário */
+.botao-twitter img {
+  background-color: transparent; /* Remova a cor de fundo do ícone do Twitter */
+}
+
+.botao-instagram {
+  background-color: #e81700; /* Cor de fundo do botão do Instagram */
+}
+
+.botao-linkedin {
+  background-color: #e81700; /* Cor de fundo do botão do LinkedIn */
+}
+
+/* Estilos do fundo da página */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("irelia.jpg"); /* Substitua "sua-imagem-de-fundo.jpg" pelo caminho correto da imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
